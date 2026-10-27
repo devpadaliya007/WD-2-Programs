@@ -1,0 +1,24 @@
+div{
+	border:2px solid gray;
+	padding:10px;
+}
+h1{
+	text align:center;
+	text-transform:uppercase;
+	letter-spacing:-4px;
+	color:#4CAF50;
+}
+p{
+	text indent:40px;
+	text-align:justify;
+	letter-spacing:4px;
+	word-spacing:10px;
+}
+a{
+	text-decoration:NONE;
+	color:#008CBA;
+}
+.ex1{
+	direction:rtl;
+	unicode-bidi:bidi-override;
+}

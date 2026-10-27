@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<style type="text/css">
+		p.example{
+			padding: 20px;
+			color: white;
+		}
+			div.example{
+			background-color: skyblue;
+			padding: 20px;
+		}
+		@media only screen and (max-width: 600px){
+			p.example{background-color: red;}
+		}
+		@media only screen and (min-width: 768px){
+			p.example{background-color: blue;}
+		}
+		@media only screen and (min-width: 992px){
+			p.example{background-color: orange;}
+		} 
+		@media only screen and (min-width: 1200px){
+			p.example{background-color: pink;}
+		}
+	
+		@media screen and (max-width: 600px){
+			div.example{
+				display: none;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h2>Typical Media Query Breakpoints</h2>
+	<p class="example">Resize The Browser Window</p>
+	<h2>Hide Element on Different Screen Size</h2>
+	<div class="example">Example div</div>
+	<p>Browser size is 600px wide</p>
+</body>
+</html>

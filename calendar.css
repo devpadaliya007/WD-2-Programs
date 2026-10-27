@@ -1,0 +1,19 @@
+h1{
+	text-align: center;
+
+}
+
+tr{
+	text-align: center;
+	background: lightgreen;
+}
+#a{
+	background:red;
+}
+#b{
+	background:orange;
+	color:yellow;
+}
+#a1{
+	background: skyblue;
+}

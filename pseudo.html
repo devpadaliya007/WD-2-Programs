@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <><style>
+        a:link{
+            coloured
+        }
+        a:visited{
+            color: green;
+        }
+        a:hover{
+            color: hotpink;
+        }
+        a:active{
+            color: blue;
+        }
+        p::first-line{
+            color: ##ff0000;
+            font-variant:small-caps;
+        }
+        h2:before{
+            content:url(image.png)
+        }
+        h4:after{
+            content:url(image.png)
+        }
+    </style>
+</head>
+<body>
+        <h1>Styling A Link Depending in State</h1>
+        <h1><b><a target="_blank">This is a link</a></b></h1><br>
+        <h4><b>Note</b>a:hover must come after a:link and a:visited in the css definition in order to be effective</h4>
+        <h2><b>Note</b>a:hover must come after a:link and a:visited in the css definition in order to be effective</h2>
+        <p>You can use the first line pseudo element</p>
+</body>
+</html>

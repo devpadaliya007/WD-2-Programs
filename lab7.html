@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>divpar3</title>
+	<style type="text/css">
+		@media only screen and (min-width: 564px){
+		
+		.border{
+			border: 3px solid grey;
+			height: 99vh;
+			width: 70%;
+		}
+		.innerdiv{
+			border: 3px solid grey;
+			margin: 10px;
+			padding-left: 18px;
+			padding-top: 18px;
+			height: 25vh;
+			font-size: 30px;
+		}
+		.detail{
+/*			border: 3px solid grey;*/
+			float: left;
+			width: 40%;
+			margin: 10px;
+		}
+		.side{
+			border: 3px solid grey;
+			float: right;
+			width: 40%;
+			margin: 10px;
+			height: 19vh;
+		}
+		a{
+			color: red;
+		}
+		.header{
+			font-size: 25px;
+		}
+		.last{
+			background-color: lightgray;
+			height: 10%;
+			width: 100%;
+			float: left;
+		}
+	}
+	</style>
+</head>
+<body>
+	<div class="border">
+		<div class="innerdiv"><b>site title</b>
+			<br>
+			fixed 1-column layout(basic)
+		</div>
+
+		<div class="detail">centerColumn
+			<br>
+			Augur et fulgente decorus arcu Phoebus acceptusquenovem Camenis, qui salutari levat arte fessos corporisartus, si Palatinas videt aequos aras remque RomanamLatiumque felix alterum in lustrum meliusque semperprorogat aevom, quaeque Aventinum tenet Algidumque,quindecim Diana preces virorum curat et votis puerorumamicas adplicat auris.
+
+			<div class="header">Header 2
+				<br>
+				<a href="Link item">Link Item</a>
+				<br>
+				<ul type="">
+					<li>Link item</li>
+					<li>Link item</li>
+					<li>Link item</li>
+						<ul>
+							<li>Link item</li>
+							<li>Link item</li>
+						</ul>
+				</ul>
+			</div>
+
+			
+
+		</div>
+		<div class="side">fauxRightColumn
+			<br>
+			<a href="Link item">Link Item</a>
+			<br>
+			<a href="Link item">Link Item</a>
+			<br>
+			<a href="Link item">Link Item</a>
+			<br>
+			Augur et fulgentedecorus arcu Phoebusacceptusque novemCamenis, qui salutarilevat arte fessoscorporis artus.
+		</div>
+
+		<div class="last">blockquote
+				<br>
+					Augur et fulgente decorus arcu Phoebus acceptusque novem Camenis, quisalutari levat arte fessos corporis artus.
+			</div>
+	</div>
+</body>
+</html>
